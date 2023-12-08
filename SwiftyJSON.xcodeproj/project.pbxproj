@@ -29,6 +29,9 @@
 		5DD502911D9B21810004C112 /* NestedJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD502901D9B21810004C112 /* NestedJSONTests.swift */; };
 		5DD502921D9B21810004C112 /* NestedJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD502901D9B21810004C112 /* NestedJSONTests.swift */; };
 		5DD502931D9B21810004C112 /* NestedJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DD502901D9B21810004C112 /* NestedJSONTests.swift */; };
+		632434772B22F0E10002000B /* DynamicMemberLookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632434762B22F0E10002000B /* DynamicMemberLookupTests.swift */; };
+		632434782B22F0E10002000B /* DynamicMemberLookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632434762B22F0E10002000B /* DynamicMemberLookupTests.swift */; };
+		632434792B22F0E10002000B /* DynamicMemberLookupTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632434762B22F0E10002000B /* DynamicMemberLookupTests.swift */; };
 		712921EF2004E4EB00DA6340 /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712921EE2004E4EB00DA6340 /* CodableTests.swift */; };
 		712921F02004E4EB00DA6340 /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712921EE2004E4EB00DA6340 /* CodableTests.swift */; };
 		712921F12004E4EB00DA6340 /* CodableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 712921EE2004E4EB00DA6340 /* CodableTests.swift */; };
@@ -120,6 +123,7 @@
 		2E4FEFE019575BE100351305 /* SwiftyJSON.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SwiftyJSON.h; path = SwiftyJSON/SwiftyJSON.h; sourceTree = "<group>"; };
 		2E4FEFE619575BE100351305 /* SwiftyJSON iOS Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftyJSON iOS Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD502901D9B21810004C112 /* NestedJSONTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NestedJSONTests.swift; path = ../SwiftJSONTests/NestedJSONTests.swift; sourceTree = "<group>"; };
+		632434762B22F0E10002000B /* DynamicMemberLookupTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicMemberLookupTests.swift; sourceTree = "<group>"; };
 		712921EE2004E4EB00DA6340 /* CodableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CodableTests.swift; path = ../SwiftJSONTests/CodableTests.swift; sourceTree = "<group>"; };
 		7236B4F61BAC14150020529B /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7236B4F71BAC14150020529B /* Info-tvOS.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-tvOS.plist"; sourceTree = "<group>"; };
@@ -269,6 +273,7 @@
 				A830A6941E5B2DD8001D7F6D /* MutabilityTests.swift */,
 				A8B66C8D19E52F4200540692 /* ArrayTests.swift */,
 				712921EE2004E4EB00DA6340 /* CodableTests.swift */,
+				632434762B22F0E10002000B /* DynamicMemberLookupTests.swift */,
 				2E4FEFEB19575BE100351305 /* Supporting Files */,
 			);
 			name = Tests;
@@ -623,6 +628,7 @@
 				A819C49719E1A7DD00ADCC3D /* LiteralConvertibleTests.swift in Sources */,
 				A87080EA19E43C0700CDE086 /* StringTests.swift in Sources */,
 				A87080E619E3DF7800CDE086 /* ComparableTests.swift in Sources */,
+				632434772B22F0E10002000B /* DynamicMemberLookupTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -663,6 +669,7 @@
 				9C459F031A9103C1008C9A41 /* RawTests.swift in Sources */,
 				9C459F051A9103C1008C9A41 /* ArrayTests.swift in Sources */,
 				9C459EFD1A9103C1008C9A41 /* SubscriptTests.swift in Sources */,
+				632434782B22F0E10002000B /* DynamicMemberLookupTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -687,6 +694,7 @@
 				A8580F8A1BCF69A000DA927B /* RawTests.swift in Sources */,
 				A8580F8B1BCF69A000DA927B /* DictionaryTests.swift in Sources */,
 				A8580F8C1BCF69A000DA927B /* ArrayTests.swift in Sources */,
+				632434792B22F0E10002000B /* DynamicMemberLookupTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

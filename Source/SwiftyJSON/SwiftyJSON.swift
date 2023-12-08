@@ -77,8 +77,18 @@ public enum Type: Int {
 	case unknown
 }
 
+// MARK: - DynamicMemberLookup
+
+public extension JSON {
+  subscript(dynamicMember member: String) -> JSON {
+    get { return self[member] }
+    set { self[member] = newValue }
+  }
+}
+
 // MARK: - JSON Base
 
+@dynamicMemberLookup
 public struct JSON {
 
 	/**
